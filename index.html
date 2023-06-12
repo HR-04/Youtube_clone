@@ -4,11 +4,291 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/video.css">
+    <link rel="stylesheet" href="Style/header.css">
+    <link rel="stylesheet" href="Style/general.css">
+    <link rel="stylesheet" href="Style/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla:wght@400;800&family=Orbitron&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Slab&family=Roboto:wght@400;500;700&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img class="thumbnail" src="img/thumbnail-1.webp">
-    <input class="search-bar"  type="text" placeholder="Search"
+    
+<header class="header">
+    <div class="left-section">
+        <img class="hamburger-menu" src="header_img/hamburger-menu.svg" alt="hamburger">
+        <img class="youtube-logo" src="header_img/youtube-logo.svg" alt="logo">
+    </div>
+    <div class="middle-section">
+        <input class="search-bar"  type="text" placeholder="Search">
+        <button class="search-btn">
+            <img class="search-icon" src="header_img/search.svg" alt="search">
+            <div class="tool-tip">Search</div></button>
+        <button class="voice-search-btn">
+            <img class="voice-search-icon" src="header_img/voice-search-icon.svg" alt="voice">
+            <div class="tool-tip">Search with your voice</div></button>
+        </button>
+    </div>
+    <div class="right-section">
+        <div class="upload-app-container">
+            <img class="upload-icon" src="header_img/upload.svg" alt="bell">
+            <div class="tool-tip" >Create</div>
+        </div>
+        <div class="youtube-app-container">
+            <img class="youtube-app-icon" src="header_img/youtube-apps.svg" alt="apps">
+            <div class="tool-tip">Youtube Apps</div>
+        </div>
+       
+        <div class="notification-icon-container">
+            <img class="notification-icon" src="header_img/notifications.svg" alt="noti">
+            <div class="tool-tip" >Notifications</div>
+            <div class="notification-count">3</div>
+        </div>
+        
+        <img class="current-user-picture" src="header_img/profile.jpg" alt="pfp">
+    </div>
+</header>
+
+<nav class="side-bar">
+    <div class="sidebar-link">
+        <img src="sidebar/home.svg" alt="home">
+        <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="sidebar/explore.svg" alt="explore">
+        <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="sidebar/subscriptions.svg" alt="subscribe">
+        <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="sidebar/originals.svg" alt="orginals">
+        <div>orginals</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="sidebar/youtube-music.svg" alt="ymusic">
+        <div>Youtube Music</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="sidebar/library.svg" alt="library">
+        <div>Library</div>
+    </div>
+</nav>
+
+<main>
+    <section class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail1.jpg">
+                <a href="https://youtu.be/F1QRZki3zb8"></a>
+                <div class="video-time">2:33</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon1.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">Resilience | Animated Short | CalArts Film 2023</p>
+                    <p class="video-author">Yunie Choi &#10003;</p>
+                    <p class="video-stats">242k views &#xb7; 4 weeks ago </p>
+                </div>
+            </div>
+        </div>  
+        
+        
+        <div class="video-preview">
+            <div class="thumbnail-row"><img class="thumbnail" src="img/thumbnail11.jpg">
+                <div class="video-time">5:47</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon2.jpg" alt="icon2">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">First Born | Animated Short Film</p>
+                    <p class="video-author">JAeD House Productions </p>
+                    <p class="video-stats">7.9M views &#xb7; 1 year ago </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail3.jpg">
+                <div class="video-time">4:01</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon3.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">R O U N D 5 ｜ Alien Stage</p>
+                    <p class="video-author">VIVINOS&#10003;</p>
+                    <p class="video-stats">2.3M views &#xb7; 1 month ago </p>
+                </div>
+            </div>
+        </div>  
+        
+        
+        <div class="video-preview">
+            <div class="thumbnail-row"><img class="thumbnail" src="img/thumbnail4.jpg">
+                <div class="video-time">9:02</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon4.jpg" alt="icon2">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Fuelled | Animated Short Film 2021</p>
+                    <p class="video-author">Killedthecat Productions </p>
+                    <p class="video-stats">7.9M views &#xb7; 1 year ago </p>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail5.jpg">
+                <div class="video-time">2:33</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon5.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">The Beauty of Earth | Netflix Anime</p>
+                    <p class="video-author">Netflix Anime&#10003;</p>
+                    <p class="video-stats">1.3M views &#xb7; 2 months ago </p>
+                </div>
+            </div>
+        </div>  
+        
+        
+        <div class="video-preview">
+            <div class="thumbnail-row"><img class="thumbnail" src="img/thumnail6.jpg">
+                <div class="video-time">10:47</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon6.jpg" alt="icon2">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Wade | Indian Animated Short Film</p>
+                    <p class="video-author">Short of the Week &#10003; </p>
+                    <p class="video-stats">1.6M views &#xb7; 1 year ago </p>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail7.jpg">
+                <a href="https://youtu.be/F1QRZki3zb8"></a>
+                <div class="video-time">4:00</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon7.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">RA-MEN | CalArts Film 2023</p>
+                    <p class="video-author">Xai Yaj</p>
+                    <p class="video-stats">171k views &#xb7; 1 month ago </p>
+                </div>
+            </div>
+        </div>  
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail8.jpg">
+                <a href="https://youtu.be/F1QRZki3zb8"></a>
+                <div class="video-time">3:50</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon8.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">Afternoon Class - Animation Short Film (2014)</p>
+                    <p class="video-author">Osro</p>
+                    <p class="video-stats">16M views &#xb7; 5 years ago </p>
+                </div>
+            </div>
+        </div>  
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail9.jpg">
+                <a href="https://youtu.be/F1QRZki3zb8"></a>
+                <div class="video-time">5:52</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon9.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">Wings | Animated Short Film | SVA Thesis</p>
+                    <p class="video-author">Gothfrog</p>
+                    <p class="video-stats">8M views &#xb7; 3 years ago </p>
+                </div>
+            </div>
+        </div>  
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail10.jpg">
+                <div class="video-time">4:11</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon10.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">Dracudate - Seneca College 2D Film - 2021</p>
+                    <p class="video-author">Seneca 2D</p>
+                    <p class="video-stats">890k views &#xb7; 1 year ago </p>
+                </div>
+            </div>
+        </div>  
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail2.jpg">
+                <div class="video-time">13:40</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon11.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">MEDUSA - The prequel</p>
+                    <p class="video-author">JUN CHIU</p>
+                    <p class="video-stats">19M views &#xb7; 4 years ago </p>
+                </div>
+            </div>
+        </div>  
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="img/thumbnail12.jpg">
+                <div class="video-time">2:33</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="icons/icon12.jpg" alt="icon1">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title">SAGUARO - Annecy Festival 2023</p>
+                    <p class="video-author"> GOBELINS</p>
+                    <p class="video-stats">6k views &#xb7; 1 day ago </p>
+                </div>
+            </div>
+        </div>  
+
+        
+    </section>    
+</main>  
 
 </body>
 </html>
